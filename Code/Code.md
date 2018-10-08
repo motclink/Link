@@ -2,13 +2,13 @@
 
 ## 一般路段：分向不分道
 
-  ![](test/Code/Pic/Code/002-1.jpg)
+  ![](Pic/Code/002-1.jpg)
   
   \*單行道：雙向編碼，惟status：不啟用。
 
 ## 虛擬線段：不具實質意義，不編碼
 
-  ![](test/Code/Pic/Code/002-2.jpg)
+  ![](Pic/Code/002-2.jpg)
 
   \*由人工挑選路口及迴轉道線段，並予以標註。
   
