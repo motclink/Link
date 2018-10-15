@@ -4,9 +4,9 @@
 
 * Confidence：信心水準，以起迄里程對應到各路段之涵蓋比率計算。
 
-  > * 線段：對應到Link，以涵蓋LinkID之比率作為Confidence數值。
-  >
-  > * 單點：對應到Link或Node，不另外提供Confidence數值。
+  * 線段：對應到Link，以涵蓋LinkID之比率作為Confidence數值。
+  
+  * 單點：對應到Link或Node，不另外提供Confidence數值。
 
 
 ![](001.jpg)
