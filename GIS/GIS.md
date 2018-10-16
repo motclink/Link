@@ -242,7 +242,7 @@
   ![圖39 Analysis Tools功能選單之三](2/2-1.png)
   
  
- 2\. 開啟**Buffer**功能，於**Input Features**選擇縣Link圖層，**Onput Features Class**輸入欲存檔位置及檔名（如圖40），**Linear unit**選擇環域大小（本範例為5公尺），**End Type**選擇Flat功能，即可將線圖層轉換成面圖層（如圖41）。
+ 2\. 開啟**Buffer**功能，於**Input Features**選擇縣Link圖層，**Onput Features Class**輸入欲存檔位置及檔名（如圖40），**Linear unit**選擇環域大小（本範例為5公尺），**End Type**選擇**Flat**功能，即可將線圖層轉換成面圖層（如圖41）。
  
  
  ![圖40 Buffer功能視窗之二](3/3-4.png)
