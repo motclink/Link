@@ -126,13 +126,13 @@
    ![圖22 Standard功能列](1/1-11-1.png)
    
   
-  2\. 開啟ArcToolbox Window，選擇Data Management Tools → General → Merge 功能。
+  2\. 開啟**ArcToolbox Window**，選擇**Data Management Tools** → **General** → **Merge** 功能。
   
   
    ![圖23 Data Management Tools功能選單之一](1/1-11.png)
   
   
-  3\. 開啟Merge功能，於Input Datasets選擇步驟三所產出圖層，Onput Dataset輸入欲存檔位置及檔名（如圖24），即可將兩個獨立圖層合併為一個圖層（如圖25）。
+  3\. 開啟**Merge**功能，於**Input Datasets**選擇步驟三所產出圖層，**Onput Dataset**輸入欲存檔位置及檔名（如圖24），即可將兩個獨立圖層合併為一個圖層（如圖25）。
   
   
    ![圖24 Merge功能視窗](1/1-12.png)
@@ -149,5 +149,59 @@
  
 
 # 參、設備點位對應Link圖層（方法二）
+
+ 一、所需圖資：設備點位圖層、Link圖層。
+ 
+  * 本案例使用自行新增之點圖層及縣142 Link圖層
+  
+  
+  ![圖26 設備點位及Link圖層套疊示意圖](1/1-1.png)
+  
+  
+ 二、利用ArcGIS Buffer功能，將線圖層轉換成面圖層進行對應。
+ 
+  1\. 開啟**ArcToolbox Window**（如圖22），選擇**Analysis Tools** → **Proximity** → **Buffer** 功能。
+  
+  
+  ![圖27 Analysis Tools功能選單之一](2/2-1.png)
+  
+  
+  2\. 開啟**Buffer**功能，於**Input Features**選擇縣142 Link圖層，**Onput Features Class**輸入欲存檔位置及檔名（如圖28），**Linear unit**選擇環域大小（本範例為10公尺），**End Type**選擇**Flat**功能，即可將線圖層轉換成面圖層（如圖29）。
+  
+  
+  ![圖28 Buffer功能視窗之一](2/2-2.png)
+  
+  
+  ![圖29 Buffer功能結果圖（Buffer值10公尺）](2/2-3.png)
+  
+  
+ 三、利用ArcGIS Intersect功能，將設備點位與步驟二轉出之Buffer面圖層進行對應。
+ 
+  1\. 開啟**ArcToolbox Window**（如圖22），選擇**Analysis Tools** → **Overlay** → **Intersect** 功能。
+  
+  
+  ![圖30 Analysis Tools功能選單之二](2/2-4.png)
+  
+  
+  2\. 開啟**Intersect**功能，於**Input Features**選擇步驟二轉出之Buffer面圖層及設備點位點圖層，**Onput Features Class**輸入欲存檔位置及檔名（如圖31），即可將設備點位對應至LinkID（如圖32）。
+  
+ 
+  ![圖31 Intersect功能視窗](2/2-5.png)
+ 
+ 
+  ![圖32 Intersect功能結果圖](2/2-6.png)
+  
+  
+ 四、優點：利用Buffer功能可以一次對應到全部Link。
+ 
+ 五、缺點：Buffer值難以設定，本範例Buffer值為10公尺，圖33點位距離最近Link在10公尺以內，因此有正確對應到Link；但圖34點位距離最近Link超過10公尺，因此無法正確對應到Link。
+ 
+ 
+ ![圖33 正確對應之結果圖](2/2-8.png)
+ 
+ 
+ ![圖34 無法正確對應之結果圖](2/2-7.png)
+ 
+
 
 # 肆、自有道路圖資對應Link圖層
