@@ -24,6 +24,7 @@
        
   四、按**OK**後，即於ArcGIS上完成點位定位，後續將此圖層輸出即可開始進行Link圖層對應。
     
+    
   ![圖4 功能清單之二](0/0-4.png)
      
           
@@ -39,23 +40,33 @@
 
    * 本案例使用自行新增之點圖層及縣142 Link圖層
    
+   
    ![圖7 設備點位及Link圖層套疊示意圖](1/1-1.png)
+ 
  
   二、將縣142 Link圖層RdDirectID欄位數值為0與1的值分別輸出。
   
+  
    ![圖8 LinkID與RdDirectID欄位數值示意圖](1/1-2.png)
+  
   
    1\. 在縣142 Link圖層上點滑鼠右鍵，選擇**Open Attribute Table**功能，開啟圖層屬性表。
    
+   
    ![圖9 功能清單之三](1/1-3.png)
+   
    
    2\. 開啟屬性表點選**Options**選單，選擇**Select By Attributes**條件式查詢功能。
    
+   
    ![圖10 Options功能選單](1/1-4.png)
+   
    
    3\. 開啟**Select By Attributes**條件式查詢後，給予RdDirectID＝0指令，並點選**Apply**。
    
+   
    ![圖11 Select By Attributes功能視窗（RdDirectID＝0）](1/1-5.png)
+      
       
    4\. 在縣142 Link圖層上點滑鼠右鍵，選擇**Data** → **Export Data**功能，將RdDirectID＝0的資料輸出，另存新檔給予自訂檔名（如圖12、13），即可擷取出所有RdDirectID＝0的資料（如圖14）。
    
