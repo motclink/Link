@@ -206,3 +206,69 @@
 
 
 # 肆、自有道路圖資對應Link圖層
+
+一、所需圖資：自有道路圖層、Link圖層。
+
+ * **本案例使用GOLIFE道路圖層（粉色線段）及Link圖層（綠色線段），以台北市範圍為例。**
+ 
+ 
+ ![圖35 GOLIFE道路圖層及Link圖層套疊示意圖](3/3-1.png)
+ 
+
+二、利用ArcGIS Feature To Point功能，將線圖層轉換成點圖層進行對應。
+
+ 1\. 開啟**ArcToolbox Window**（如圖22），選擇**Data Management Tools** → **Features** → **Feature To Point** 功能。
+ 
+ 
+ ![圖36 Data Management Tools功能選單之二](3/3-2.png)
+ 
+ 
+ 2\. 開啟**Feature To Point**功能，於**Input Features**選擇自有道路圖層，**Onput Features Class**輸入欲存檔位置及檔名（如圖37），勾選**Inside**欄位，即可將線圖層轉換成點圖層（如圖38）。
+ 
+ * **勾選Inside欄位可將轉換後點位準確黏貼在原有自有道路圖層上。**
+ 
+ 
+ ![圖37 Feature To Point功能視窗](3/3-3.png)
+ 
+ 
+ ![圖38 Feature To Point功能結果圖](3/3-3-1.png)
+ 
+ 
+三、利用ArcGIS Buffer功能，將線圖層轉換成面圖層進行對應。
+
+ 1\. 開啟**ArcToolbox Window**（如圖22），選擇**Analysis Tools** → **Proximity** → **Buffer** 功能。
+ 
+  
+  ![圖39 Analysis Tools功能選單之三](2/2-1.png)
+  
+ 
+ 2\. 開啟**Buffer**功能，於**Input Features**選擇縣Link圖層，**Onput Features Class**輸入欲存檔位置及檔名（如圖40），**Linear unit**選擇環域大小（本範例為5公尺），**End Type**選擇Flat功能，即可將線圖層轉換成面圖層（如圖41）。
+ 
+ 
+ ![圖40 Buffer功能視窗之二](3/3-4.png)
+ 
+ 
+ ![圖41 Buffer功能結果圖（Buffer值5公尺）](3/3-5.png)
+ 
+ 
+四、利用ArcGIS Intersect功能，將步驟二轉出之點圖層與步驟三轉出之Buffer面圖層進行對應。
+
+ 
+ 1\. 開啟**ArcToolbox Window**（如圖22），選擇**Analysis Tools** → **Overlay** → **Intersect** 功能。
+ 
+ 
+  ![圖42 Analysis Tools功能選單之四](2/2-4.png)
+  
+  
+ 2\. 開啟**Intersect**功能，於**Input Features**選擇步驟二轉出之點圖層與步驟三轉出之Buffer面圖層，**Onput Features Class**輸入欲存檔位置及檔名（如圖43），即可將點圖層對應至LinkID（如圖44、45）。
+ 
+ 
+  ![圖43 Intersect功能視窗](3/3-6.png)
+  
+  
+  ![圖44 Intersect功能結果圖](3/3-7.png)
+  
+ 
+  ![圖45 Intersect功能結果圖](3/3-8.png)
+  
+  
