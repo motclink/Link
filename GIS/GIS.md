@@ -19,7 +19,7 @@
   三、**X Field**、**Y Field**分別選擇設備點位資料所自訂的X、Y座標欄位。
   
   
-  ![圖3 Display XY Data功能視窗](0/0-2.png)
+  ![圖3 Display XY Data功能視窗](0/0-3.png)
      
        
   四、按**OK**後，即於ArcGIS上完成點位定位，後續將此圖層輸出即可開始進行Link圖層對應。
