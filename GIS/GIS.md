@@ -83,7 +83,54 @@
    5\. 擷取RdDirectID＝1的方式請重複3～4的步驟，差別僅在步驟3給予RdDirectID＝1指令（如圖15），即可擷取出所有RdDirectID＝1的資料（如圖16）。
    
    
+   ![圖15 Select By Attributes功能視窗（RdDirectID＝1）](1/1-9.png)
    
+   
+   ![圖16 縣142 Link圖層RdDirectID＝1之輸出結果](1/1-10.png)
+   
+   
+  三、將設備點位圖層與上述第二點所擷取出的圖層分別執行Join功能，即可對應到距離設備點位最近之Link。
+  
+   1\. 於設備點位圖層上點滑鼠右鍵，選擇**Joins and Relates** → **Join**功能。
+   
+   
+   ![圖17 功能清單之五](1/1-11.png)
+   
+   
+   2\.上方下拉式選單點選**Join data from another layer based on spatial location**，選項1選擇自行命名RdDirectID＝0之圖層，選項2依照圖18選擇，選項3輸入欲存檔位置及檔名。
+   
+   
+   ![圖18 Join data功能視窗（RdDirectID＝0）](1/1-12.png)
+   
+   
+   3\. 輸入完畢按OK，即可得到設備點位圖層對應縣142 Link圖層（當RdDirectID＝0）距離最近之Link（如圖19）。
+   
+   
+   ![圖19 RdDirectID＝0對應結果屬性表](1/1-13.png) 
+   
+   
+   4\. 對應RdDirectID＝1的方式請重複步驟1～3，即可得到設備點位圖層對應縣142 Link圖層（當RdDirectID＝1）距離最近之Link（如圖20、圖21）。
+   
+   
+   ![圖20 Join data功能視窗（RdDirectID＝1）](1/1-14.png) 
+   
+  
+   ![圖21 RdDirectID＝1對應結果屬性表](1/1-15.png) 
+   
+   
+ 四、步驟三所產出圖層為獨立分開（即RdDirectID＝0、RdDirectID＝1分別為一個獨立圖層），欲將兩個獨立圖層合併為一個圖層，請繼續執行下列步驟。 
+ 
+  1\. 開啟ArcToolbox Window工具（如圖22藍色框線）
+  
+  
+  2\. 開啟ArcToolbox Window，選擇Data Management Tools → General → Merge 功能。
+  
+  
+  3\. 開啟Merge功能，於Input Datasets選擇步驟三所產出圖層，Onput Dataset輸入欲存檔位置及檔名（如圖24），即可將兩個獨立圖層合併為一個圖層（如圖25）。
+  
+   * 注意事項：當道路非同時為單線或同時為雙線者，完成後須手動對應選擇正確方向之LinkID。
+   
+  
 
 # 參、設備點位對應Link圖層（方法二）
 
