@@ -53,40 +53,40 @@
    1\. 在縣142 Link圖層上點滑鼠右鍵，選擇**Open Attribute Table**功能，開啟圖層屬性表。
    
    
-   ![圖9 功能清單之三](1/1-3.png)
+   ![圖9 功能清單之三](1/1-2-1.png)
    
    
    2\. 開啟屬性表點選**Options**選單，選擇**Select By Attributes**條件式查詢功能。
    
    
-   ![圖10 Options功能選單](1/1-4.png)
+   ![圖10 Options功能選單](1/1-2-2.png)
    
    
    3\. 開啟**Select By Attributes**條件式查詢後，給予RdDirectID＝0指令，並點選**Apply**。
    
    
-   ![圖11 Select By Attributes功能視窗（RdDirectID＝0）](1/1-5.png)
+   ![圖11 Select By Attributes功能視窗（RdDirectID＝0）](1/1-3.png)
       
       
    4\. 在縣142 Link圖層上點滑鼠右鍵，選擇**Data** → **Export Data**功能，將RdDirectID＝0的資料輸出，另存新檔給予自訂檔名（如圖12、13），即可擷取出所有RdDirectID＝0的資料（如圖14）。
    
    
-   ![圖12 功能清單之四](1/1-6.png)
+   ![圖12 功能清單之四](1/1-5.png)
    
    
-   ![圖13 Export Data功能視窗](1/1-7.png)
+   ![圖13 Export Data功能視窗](1/1-6.png)
    
    
-   ![圖14 縣142 Link圖層RdDirectID＝0之輸出結果](1/1-8.png)
+   ![圖14 縣142 Link圖層RdDirectID＝0之輸出結果](1/1-6-1.png)
    
    
    5\. 擷取RdDirectID＝1的方式請重複3～4的步驟，差別僅在步驟3給予RdDirectID＝1指令（如圖15），即可擷取出所有RdDirectID＝1的資料（如圖16）。
    
    
-   ![圖15 Select By Attributes功能視窗（RdDirectID＝1）](1/1-9.png)
+   ![圖15 Select By Attributes功能視窗（RdDirectID＝1）](1/1-4.png)
    
    
-   ![圖16 縣142 Link圖層RdDirectID＝1之輸出結果](1/1-10.png)
+   ![圖16 縣142 Link圖層RdDirectID＝1之輸出結果](1/1-6-2.png)
    
    
   三、將設備點位圖層與上述第二點所擷取出的圖層分別執行Join功能，即可對應到距離設備點位最近之Link。
@@ -94,28 +94,28 @@
    1\. 於設備點位圖層上點滑鼠右鍵，選擇**Joins and Relates** → **Join**功能。
    
    
-   ![圖17 功能清單之五](1/1-11.png)
+   ![圖17 功能清單之五](1/1-7.png)
    
    
    2\.上方下拉式選單點選**Join data from another layer based on spatial location**，選項1選擇自行命名RdDirectID＝0之圖層，選項2依照圖18選擇，選項3輸入欲存檔位置及檔名。
    
    
-   ![圖18 Join data功能視窗（RdDirectID＝0）](1/1-12.png)
+   ![圖18 Join data功能視窗（RdDirectID＝0）](1/1-8.png)
    
    
    3\. 輸入完畢按OK，即可得到設備點位圖層對應縣142 Link圖層（當RdDirectID＝0）距離最近之Link（如圖19）。
    
    
-   ![圖19 RdDirectID＝0對應結果屬性表](1/1-13.png) 
+   ![圖19 RdDirectID＝0對應結果屬性表](1/1-9.png) 
    
    
    4\. 對應RdDirectID＝1的方式請重複步驟1～3，即可得到設備點位圖層對應縣142 Link圖層（當RdDirectID＝1）距離最近之Link（如圖20、圖21）。
    
    
-   ![圖20 Join data功能視窗（RdDirectID＝1）](1/1-14.png) 
+   ![圖20 Join data功能視窗（RdDirectID＝1）](1/1-8-1.png) 
    
   
-   ![圖21 RdDirectID＝1對應結果屬性表](1/1-15.png) 
+   ![圖21 RdDirectID＝1對應結果屬性表](1/1-10.png) 
    
    
  四、步驟三所產出圖層為獨立分開（即RdDirectID＝0、RdDirectID＝1分別為一個獨立圖層），欲將兩個獨立圖層合併為一個圖層，請繼續執行下列步驟。 
@@ -123,22 +123,22 @@
   1\. 開啟ArcToolbox Window工具（如圖22藍色框線）
   
   
-   ![圖22 Standard功能列](1/1-16.png)
+   ![圖22 Standard功能列](1/1-11-1.png)
    
   
   2\. 開啟ArcToolbox Window，選擇Data Management Tools → General → Merge 功能。
   
   
-   ![圖23 Data Management Tools功能選單之一](1/1-17.png)
+   ![圖23 Data Management Tools功能選單之一](1/1-11.png)
   
   
   3\. 開啟Merge功能，於Input Datasets選擇步驟三所產出圖層，Onput Dataset輸入欲存檔位置及檔名（如圖24），即可將兩個獨立圖層合併為一個圖層（如圖25）。
   
   
-   ![圖24 Merge功能視窗](1/1-18.png)
+   ![圖24 Merge功能視窗](1/1-12.png)
    
    
-   ![圖25 Merge功能結果圖層屬性表](1/1-19.png)
+   ![圖25 Merge功能結果圖層屬性表](1/1-13.png)
   
   
    * 注意事項：當道路非同時為單線或同時為雙線者，完成後須手動對應選擇正確方向之LinkID。
