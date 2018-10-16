@@ -123,14 +123,30 @@
   1\. 開啟ArcToolbox Window工具（如圖22藍色框線）
   
   
+   ![圖22 Standard功能列](1/1-16.png)
+   
+  
   2\. 開啟ArcToolbox Window，選擇Data Management Tools → General → Merge 功能。
+  
+  
+   ![圖23 Data Management Tools功能選單之一](1/1-17.png)
   
   
   3\. 開啟Merge功能，於Input Datasets選擇步驟三所產出圖層，Onput Dataset輸入欲存檔位置及檔名（如圖24），即可將兩個獨立圖層合併為一個圖層（如圖25）。
   
+  
+   ![圖24 Merge功能視窗](1/1-18.png)
+   
+   
+   ![圖25 Merge功能結果圖層屬性表](1/1-19.png)
+  
+  
    * 注意事項：當道路非同時為單線或同時為雙線者，完成後須手動對應選擇正確方向之LinkID。
    
-  
+ 五、優點：可對應到唯一一條Link。
+ 
+ 六、缺點：步驟程序繁瑣。
+ 
 
 # 參、設備點位對應Link圖層（方法二）
 
