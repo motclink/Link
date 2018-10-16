@@ -14,4 +14,4 @@
 * 其它參考文件
   * 教育訓練文件
     * [LinkID導入"即時路況資料標準V2.0"推動教育訓練簡報](http://link.motc.gov.tw/DownloadFile/GetFile/278)
-    * [即時路況資料標準V2.0](https://www.motc.gov.tw/ch/home.jsp?id=843&parentpath=0%2C2%2C838&mcustomize=onemessages_view.jsp&dataserno=201804270001&aplistdn=ou=data,ou=bussiness,ou=chinese,ou=ap_root,o=motc,c=tw&toolsflag=Y&imgfolder=img%2Fstandard)
+    * 即時路況資料標準V2.0
