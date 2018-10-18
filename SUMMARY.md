@@ -13,5 +13,5 @@
   * API輸出表單
 * 其它參考文件
   * 教育訓練文件
-    * [LinkID導入"即時路況資料標準V2.0"推動教育訓練簡報](http://link.motc.gov.tw/DownloadFile/GetFile/278)
+    * [LinkID導入"即時路況資料標準V2.0"推動教育訓練簡報](Training/Training.md)
     * 即時路況資料標準V2.0
