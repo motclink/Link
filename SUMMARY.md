@@ -1,7 +1,6 @@
 # Summary
 
 * 路段編碼內容
-  * [RoadID與LinkID關係](Code/1RoadID.md)
   * [路段編碼原則(精簡版)](Code/2Code.md)
   * [交通資訊基礎路段編碼規範(完整版)](Code/3Standard.md)
   * [異動更新](Code/4Update.md)
@@ -11,7 +10,4 @@
 * 系統相關文件
   * [系統操作文件](Tools/Tools.md)
   * [API輸出表單](Tools/API.md)
-* 其它參考文件
-  * 教育訓練文件
-    * [交通資訊基礎路段編碼查詢系統－應用於「即時路況資料標準2.0」](Training/Training01.md)
-    * 交通資訊基礎路段編碼查詢系統－應用於「停車資料標準」
+  * [RoadID與LinkID關係](Code/1RoadID.md)
