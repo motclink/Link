@@ -26,7 +26,7 @@
   
 ## 範例檔說明
 
-* 本工具已提供範例檔於網頁中，至 http://link.motc.gov.tw/Direction 網址中選擇範例下載即可取得範例檔。
+* 本工具已提供範例檔於網頁中，至 https://link.motc.gov.tw/Direction 網址中選擇範例下載即可取得範例檔。
 
 * 範例檔案使用說明：
 
