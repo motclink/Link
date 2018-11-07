@@ -1,7 +1,7 @@
 # Summary
 
 * 路段編碼內容
-  * [路段編碼原則(精簡版)](Code/2Code.md)
+  * [交通資訊基礎路段編碼原則(精簡版)](Code/2Code.md)
   * [交通資訊基礎路段編碼規範(完整版)](Code/3Standard.md)
   * [異動更新](Code/4Update.md)
 * 路段編碼對應 
