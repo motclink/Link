@@ -14,4 +14,4 @@
 
 # 歷次版本
 
-* Version：18Q3M09V1；UpdateDate：20180928。
+* Version：18Q3M09V1；UpdateDate：2018-09-28。
