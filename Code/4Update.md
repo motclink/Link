@@ -14,8 +14,12 @@
 
 # 歷次版本
 
-* Version：18Q3M09V1；UpdateDate：2018-09-28。
+* Version：18Q3M09V1；UpdateDate：20180928。
+
+* Version：19.05.1；UpdateDate：20190515。
 
 # 版本設計說明
 
 ![](Pic/001.png)
+
+![](Pic/002.png)
