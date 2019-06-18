@@ -41,15 +41,31 @@
 
 * 使用對象：對應標的來源單位或不定期更新者。
 
-* 使用情境：適合已完成首次對應之使用者，當本系統更新後，可透過API查詢所需版本進行對應資料更新。
+* 使用情境：適合已完成首次對應之使用者，當LinkID更新後，可透過API查詢所需版本進行對應資料更新。
 
-* 查詢方式：輸入指定兩版本Version1、Version2與LinkID。
+* 查詢方式：輸入指定兩版本版本1、版本2與LinkID。
+
+* 輸出內容：屬性資料及版本。
 
 ![](009.png)
 
 ![](009-1.png)
 
 ![](009-2.png)
+
+* 實際案例：
+
+&emsp;&emsp;Input：
+
+&emsp;&emsp;&emsp;&emsp;OriginalVersion：18Q3M09V1
+
+&emsp;&emsp;&emsp;&emsp;LinkID：0000101024030H
+
+&emsp;&emsp;&emsp;&emsp;Version：19.05.1
+
+&emsp;&emsp;Output：
+
+![](009-3.png)
 
 
 3\. 異動軌跡查詢
@@ -58,12 +74,27 @@
 
 * 使用情境：透過查詢得知指定之歷次版本、每一路段之變化情形。
 
-* 查詢方式：輸入指定兩版本Version1、Version2與LinkID。
+* 查詢方式：輸入指定兩版本版本1、版本5與LinkID。
+
+* 輸出內容：異動軌跡、異動類型、異動原因、異動欄位名稱及屬性資料。
 
 ![](010.PNG)
 
 ![](010-1.png)
 
+* 實際案例：
+
+&emsp;&emsp;Input：
+
+&emsp;&emsp;&emsp;&emsp;OriginalVersion：18Q3M09V1
+
+&emsp;&emsp;&emsp;&emsp;LinkID：0000101024030H
+
+&emsp;&emsp;&emsp;&emsp;Version：19.05.1
+
+&emsp;&emsp;Output：
+
+![](010-2.png)
 
 4\. 資料更新方式：異動資料欄位包含異動註記欄位(N: 新增、M: 異動、D: 刪除)，可提供使用者將手邊現有版本資料批次更新為最新版本資料，相關異動檔提供於下載區，需更新資料之查詢方式如下圖。
 
