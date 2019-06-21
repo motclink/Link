@@ -3,7 +3,7 @@
 * 路段編碼內容
   * [交通資訊基礎路段編碼原則(精簡版)](Code/2Code.md)
   * [交通資訊基礎路段編碼規範(完整版)](Code/3Standard.md)
-  * [異動更新](Code/4Update.md)
+  * [異動更新週期版本說明](Code/4Update.md)
 * 路段編碼對應 
   * [主題資料對應路段編碼邏輯(系統提供相關對應)](Logic/Logic.md)
   * [自有道路圖資對應Link圖層(以GIS工具比對作法參考)](GIS/GIS.md)
