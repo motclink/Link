@@ -55,15 +55,15 @@
 
 * 實際案例：
 
-&emsp;* Input：
+  * Input：
 
-&emsp;&emsp;* OriginalVersion：18Q3M09V1
+    * OriginalVersion：18Q3M09V1
 
-&emsp;&emsp;* LinkID：0000101024030H
+    * LinkID：0000101024030H
 
-&emsp;&emsp;* Version：19.05.1
+    * Version：19.05.1
 
-&emsp;* Output：
+  * Output：
 
 ![](009-3.png)
 
@@ -84,15 +84,15 @@
 
 * 實際案例：
 
-* Input：
+  * Input：
 
-* OriginalVersion：18Q3M09V1
+    * OriginalVersion：18Q3M09V1
 
-* LinkID：0000101024030H
+    * LinkID：0000101024030H
 
-* Version：19.05.1
+    * Version：19.05.1
 
-* Output：
+  * Output：
 
 ![](010-2.png)
 
@@ -106,23 +106,23 @@
 
 * 實際案例：
 
-* Input：
+  * Input：
 
-* Version：18Q3M09V1
+    * Version：18Q3M09V1
 
-* ChangeNote：D
+    * ChangeNote：D
 
-* Output：
+  * Output：
 
 ![](014.PNG)
 
-* Input：
+  * Input：
 
-* Version：19.05.1
+    * Version：19.05.1
 
-* ChangeNote：N
+    * ChangeNote：N
 
-* Output：
+  * Output：
 
 ![](015.png)
 
