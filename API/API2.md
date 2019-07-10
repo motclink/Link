@@ -55,15 +55,15 @@
 
 * 實際案例：
 
-* Input：
+&emsp;* Input：
 
-* OriginalVersion：18Q3M09V1
+&emsp;&emsp;* OriginalVersion：18Q3M09V1
 
-* LinkID：0000101024030H
+&emsp;&emsp;* LinkID：0000101024030H
 
-* Version：19.05.1
+&emsp;&emsp;* Version：19.05.1
 
-* Output：
+&emsp;* Output：
 
 ![](009-3.png)
 
