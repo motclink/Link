@@ -55,15 +55,15 @@
 
 * 實際案例：
 
-&emsp;&emsp;* Input：
+* Input：
 
-&emsp;&emsp;&emsp;&emsp;* OriginalVersion：18Q3M09V1
+* OriginalVersion：18Q3M09V1
 
-&emsp;&emsp;&emsp;&emsp;* LinkID：0000101024030H
+* LinkID：0000101024030H
 
-&emsp;&emsp;&emsp;&emsp;* Version：19.05.1
+* Version：19.05.1
 
-&emsp;&emsp;* Output：
+* Output：
 
 ![](009-3.png)
 
@@ -84,15 +84,15 @@
 
 * 實際案例：
 
-&emsp;&emsp;* Input：
+* Input：
 
-&emsp;&emsp;&emsp;&emsp;* OriginalVersion：18Q3M09V1
+* OriginalVersion：18Q3M09V1
 
-&emsp;&emsp;&emsp;&emsp;* LinkID：0000101024030H
+* LinkID：0000101024030H
 
-&emsp;&emsp;&emsp;&emsp;* Version：19.05.1
+* Version：19.05.1
 
-&emsp;&emsp;Output：
+* Output：
 
 ![](010-2.png)
 
@@ -106,25 +106,25 @@
 
 * 實際案例：
 
-&emsp;&emsp;* Input：
+* Input：
 
-&emsp;&emsp;&emsp;&emsp;* Version：18Q3M09V1
+* Version：18Q3M09V1
 
-&emsp;&emsp;&emsp;&emsp;* ChangeNote：D
+* ChangeNote：D
 
-&emsp;&emsp;* Output：
+* Output：
 
 ![](014.PNG)
 
-&emsp;&emsp;* Input：
+* Input：
 
-&emsp;&emsp;&emsp;&emsp;* Version：19.05.1
+* Version：19.05.1
 
-&emsp;&emsp;&emsp;&emsp;* ChangeNote：N
+* ChangeNote：N
 
-&emsp;&emsp;* Output：
+* Output：
 
-![](015.PNG)
+![](015.png)
 
 依據上方實際案例查詢出版本18Q3M09V1、ChangeNote為D之結果後，使用者可將其手邊該筆LinkID資料整筆刪除後，再依據版本19.05.1、ChangeNote為N之查詢結果，將其全部新增至手邊資料，即可將該筆LinkID資料更新為最新版本。
 
