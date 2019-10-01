@@ -14,5 +14,5 @@
 * 資料代碼對應及關係補充
   * [RoadID與LinkID關係](Code/1RoadID.md)
   * [縣市代碼](Code/5City.md)
-  * [方向碼及方位碼](Code/6Direction.md.md)
+  * [方向碼及方位碼](Code/6Direction.md)
   * [CNodeID與NodeID]
