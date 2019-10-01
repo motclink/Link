@@ -11,4 +11,8 @@
   * [異動更新服務說明文件](API/API2.md)
   * [系統操作文件](Tools/Tools.md)
   * [API輸出表單](Tools/API.md)
+* 資料代碼對應及關係補充
   * [RoadID與LinkID關係](Code/1RoadID.md)
+  * [縣市代碼]
+  * [方向碼及方位碼]
+  * [CNodeID與NodeID]
