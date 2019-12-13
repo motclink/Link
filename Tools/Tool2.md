@@ -368,5 +368,35 @@
 
 &emsp;&emsp;2. 開啟檔案後，點選檔案，另存新檔，並將編碼格式選為UTF-8。
 
-
 # WKT&emsp;&emsp;資料取得說明
+
+* 說明對應完成後的路段編碼之路徑 (WKT) 資料如何取得
+
+* 利用Excel開啟完成編輯之資料
+
+* 於LinkID欄位最前方加入[“
+
+* 在LinkID欄位最後方加入“]
+
+* 利用取代功能，將 ”;” 替換成 ”,”
+
+![](V2/042.JPG)
+
+* 至API頁面 (https://link.motc.gov.tw/swagger/ui/index)
+
+* 找到指定API：v2/Road/Link/Shape/Geometry/WKT
+
+![](V2/043.JPG)
+
+* 於LinkID欄位貼入稍早整理的資料
+
+* 點擊Try it out!
+
+![](V2/044.JPG)
+
+* 複製Response Body輸出資料
+
+* 完成該筆WKT軌跡資料取得
+
+![](V2/045.JPG)
+
