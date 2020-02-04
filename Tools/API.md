@@ -30,10 +30,10 @@
 | RoadName |    道路名稱(中文)    |    國道1號 
 | RoadNameID |    道路名稱代碼(簡稱:路名碼)    |   00010 
 | RoadClass |    道路分類代碼    |    0 
-| RoadClassName |    道路分類名稱    |    國道   |    市區道路時為必填   |
+| RoadClassName |    道路分類名稱    |    國道   |       
 | CityID |    縣市代碼    |    A  |   市區道路時為必填   |
 | CityName |    縣市名稱(中文)    |       |    市區道路時為必填   |
-| City |    縣市(英文)    |       | 
+| City |    縣市(英文)    |       |   市區道路時為必填   |
 | MileLength |    道路里程長度    |    374.3   |   國快省縣等有里程資料時為必填   |
 | Length |    道路線型長度(GIS圖資)    |
 | Version |    版本    |    18Q3M09V1   |
