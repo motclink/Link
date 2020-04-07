@@ -16,9 +16,11 @@
 
 # 歷次版本
 
-* Version：18Q3M09V1；UpdateDate：20180928。
+* Version：18Q3M09V1；UpdateDate：2018-09-28。
 
-* Version：19.05.1；UpdateDate：20190515。
+* Version：19.05.1；UpdateDate：2019-05-15。
+
+* Version：19.12.1；UpdateDate：2019-12-20。
 
 # 版本設計說明
 
