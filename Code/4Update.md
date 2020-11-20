@@ -26,6 +26,8 @@
 
 * Version：20.07.1；UpdateDate：2020-07-20。
 
+* Version：20.10.1；UpdateDate：2020-10-20。
+
 # 版本設計說明
 
 ![](Pic/002.png)
