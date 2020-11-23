@@ -12,7 +12,7 @@
 
 # CNode產製方式
 
-一、於ArcGIS內對Link圖層執行條件式選取出路口，條件式為 "Linktype" = '路口'。
+一、於ArcGIS內對Link圖層執行條件式以選取出路口，條件式為 "Linktype" = '路口'。
 
 ![](Pic/CNode/000.JPG)
 
@@ -32,7 +32,7 @@
 
 ![](Pic/CNode/003.JPG)
 
-四、為使相連的路口合為一個路口，因此將步驟三所產出之圖層，執行「Dissolve」功能，，並取消勾選「Create multipart features」。
+四、為使相連的路口合為一個路口，因此將步驟三所產出之圖層，執行「Dissolve」功能，並取消勾選「Create multipart features」。
 
 ![](Pic/CNode/005.JPG)
 
@@ -40,9 +40,11 @@
 
 ![](Pic/CNode/012.JPG)
 
-五、由於路口並非全是面圖層，亦存在單線段狀態之路口，因此須將步驟四所產出之圖層，與步驟二所產出之圖層進行「Select By Location」，並設定intersect buffer為0.0001m，完成後再做「反向選取」抓出為單線狀態之路口，如藍色線段框出範圍。
+五、由於路口並非全是面圖層，亦存在單線段狀態之路口，因此須將步驟四所產出之圖層，與步驟二所產出之圖層進行「Select By Location」，並設定intersect buffer為0.0001m。
 
 ![](Pic/CNode/013.JPG)
+
+完成上述步驟後再做「Switch Selection」反向選取抓出為單線狀態之路口，如藍色線段框出範圍，並將抓出路口獨立輸出。
 
 ![](Pic/CNode/007.JPG)
 
