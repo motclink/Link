@@ -12,7 +12,7 @@
 
 # CNode產製方式
 
-一、於ArcGIS內執行對Link圖層條件式選取出路口，條件式為 "Linktype" = '路口'。
+一、於ArcGIS內對Link圖層執行條件式選取出路口，條件式為 "Linktype" = '路口'。
 
 ![](Pic/CNode/000.JPG)
 
@@ -20,7 +20,7 @@
 
 ![](Pic/CNode/001.JPG)
 
-執行結果如下圖，紅色線段即路口範圍。
+執行結果如下圖，紅色線段即所選出之路口範圍。
 
 ![](Pic/CNode/002.JPG)
 
@@ -32,9 +32,11 @@
 
 ![](Pic/CNode/003.JPG)
 
-四、為使相鄰的路口合為一個路口，因此將步驟三所產出之圖層，執行「Dissolve」功能，，並取消勾選「Create multipart features」。
+四、為使相連的路口合為一個路口，因此將步驟三所產出之圖層，執行「Dissolve」功能，，並取消勾選「Create multipart features」。
 
 ![](Pic/CNode/005.JPG)
+
+執行結果可將相連合併為單一路口，如下圖黑色圓圈所示。
 
 ![](Pic/CNode/012.JPG)
 
@@ -52,7 +54,7 @@
 
 ![](Pic/CNode/009.JPG)
 
-八、將步驟七所產出之圖層執行「Feature To Point」功能，並勾選「Inside」，即可產出中心點，則為本計畫所用之路口虛擬中心點(CNode)，如下圖黑點。
+八、將步驟七所產出之圖層執行「Feature To Point」功能，並勾選「Inside」，即可產出中心點，結果則為本計畫所用之路口虛擬中心點(CNode)，如下圖黑點。
 
 ![](Pic/CNode/010.JPG)
 
