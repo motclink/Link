@@ -30,6 +30,8 @@
 
 * Version：20.10.2；UpdateDate：2021-03-03。
 
+* Version：21.08.1；UpdateDate：2021-08-13。
+
 # 版本設計說明
 
 ![](Pic/002.png)
