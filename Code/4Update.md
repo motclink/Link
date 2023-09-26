@@ -36,6 +36,10 @@
 
 * Version：22.09.1；UpdateDate：2022-09-28。
 
+* Version：23.05.1；UpdateDate：2023-05-05。
+ 
+* Version：23.09.1；UpdateDate：2023-09-08。
+
 # 版本設計說明
 
 ![](Pic/002.png)
